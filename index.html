@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio Módulo 1 - HTML</title>
+  </head>
+  <body>
+    <h1 id="topo">Módulo 1 - Primeiros passos com HTML</h1>
+    <hr />
+
+    <h2>Índice</h2>
+    <ul>
+      <li><a href="#historia">História dos computadores</a></li>
+      <li><a href="#ferramentas">Ferramentas utilizadas</a></li>
+      <li><a href="#clients">Clients</a></li>
+      <li><a href="#servers">Servers</a></li>
+      <li><a href="#estrutura">Estrutura do HTML</a></li>
+      <li><a href="#tags">Tags</a></li>
+      <li><a href="#atributos">Atributos</a></li>
+      <li><a href="#referencias">Links de referências</a></li>
+    </ul>
+
+    <h2 id="historia">História dos computadores</h2>
+    <p>
+      A história do computador é uma jornada de evolução desde máquinas
+      mecânicas complexas até os dispositivos eletrônicos compactos e poderosos
+      que usamos hoje. A trajetória inclui o conceito de computador programável
+      de Charles Babbage, a invenção do ENIAC (primeiro computador eletrônico),
+      o desenvolvimento de transistores e circuitos integrados, e a criação dos
+      microprocessadores que levaram aos computadores pessoais.
+    </p>
+
+    <h2 id="ferramentas">Ferramentas utilizadas</h2>
+    <p>
+      O Visual Studio Code é um editor de código-fonte desenvolvido pela
+      Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração,
+      controle de versionamento Git incorporado, realce de sintaxe,
+      complementação inteligente de código, snippets e refatoração de código.
+    </p>
+
+    <h2 id="clients">Clients</h2>
+    <p>
+      Os clients podem ser compreendidos como as aplicações que solicitam
+      recursos aos servers. Trazendo para exemplos práticos que podem facilitar
+      o entendimento, podem ser aplicativos de celulares, programas de
+      computador e sites na web. Uma analogia que pode ser aplicada, é o exemplo
+      de relação entre um garçom e um cliente em um restaurante, onde o garçom é
+      o server (servidor, aquele que irá atender os pedidos do cliente) e o
+      client é propriamente o cliente que fará os pedidos ao garçom.
+    </p>
+
+    <p>
+      Enquanto as aplicações client necessitam e utilizam uma quantidade menor
+      de recursos, as aplicações server costumam consumir e necessitar de
+      estruturas mais robustas para suportar as diversas requisições dos
+      clientes.
+    </p>
+    <h2 id="servers">Servers</h2>
+    <p>
+      Os servers podem ser compreendidos como as aplicações que processam as
+      solicitações dos clientes, aplicam as regras de negócio necessárias e
+      respondem aos clientes entregando os recursos solicitados. A estrutura por
+      trás dos servers costumam ser mais complexas e invisíveis aos usuários,
+      apenas uma camada mais simples é apresentada e determina os recursos
+      disponíveis e as condições necessárias para serem acessados.
+    </p>
+    <h2 id="estrutura">Estrutura do HTML</h2>
+    <p>
+      A estrutura do HTML é composta por três partes principais.
+      <ul>
+        <li>
+          <strong>Tag html</strong>
+          <p>A tag html envolve todo o documento HTML, indicando ao navegador que o conteúdo deve ser interpretado como uma página web.</p>
+        </li>
+        <li>
+          <strong>Tag head</strong>
+          <p>A tag <head> é carregada antes do corpo da página e serve para definir configurações, metadados e recursos, como o título da aba, links para arquivos CSS, scripts e informações para buscadores.</p>
+        </li>
+        <li>
+          <strong>Tag body</strong>
+          <p>A tag <body> envolve todos os elementos visíveis ao usuário, como textos, imagens, botões e formulários.</p>
+        </li>
+      </ul>
+    </p>
+    <h2 id="tags">Tags</h2>
+    <p>Algumas tags foram apresentadas no módulo 1, veja um pouco mais sobre elas:</p>
+    <ul>
+      <li>
+        <strong>tags h1 ao h6</strong>
+        <p>
+          As tags h1 ao h6 são tags de título e possuem 6 níveis, ao utilizar uma dessas tags o navegador entende que é uma tag de título e aplica comportamentos padrões como o tamanho de acordo com cada nível de título e em negrito.
+          <br/>
+          Exemplos:
+          <blockquote>
+            <h1>Título h1</h1>
+            <h2>Título h2</h2>
+            <h3>Título h3</h3>
+            <h4>Título h4</h4>
+            <h5>Título h5</h5>
+            <h6>Título h6</h6>
+          </blockquote>
+        </p>
+      </li>
+      <li>
+        <strong>tag p</strong>
+        <p>
+          A tag p é utilizada para delimitar um parágrafo na estrutura do html. Exemplos:
+          <blockquote>
+            <p>Este é o parágrafo 1</p>
+            <p>Este é o parágrafo 2</p>
+          </blockquote>
+        </p>
+      </li>
+      <li>
+        <strong>tag mark</strong>
+        <p>
+          A tag mark é utilizada para aplicar o comportamento de marcação de texto, por exemplo, <mark>o texto marcado na cor amarela</mark>
+        </p>
+      </li>
+      <li>
+        <strong>tag small</strong>
+        <p>
+          A tag small serve para indicar que um trecho de texto deve ser exibido em tamanho menor que o texto normal, geralmente para observações, comentários, avisos ou notas de rodapé.<br/>
+          Exemplo:
+          <blockquote>
+            <p>
+              Este é um parágrafo normal.
+              <small>Este é um texto menor dentro do parágrafo.</small>
+            </p>
+          <blockquote>
+        </p>
+      </li>
+      <li>
+        <strong>tag i</strong>
+        <p>
+          A tag i serve para deixar o texto em itálico.<br/>
+          Exemplo:
+          <blockquote>
+            <p>
+              O livro <i>Dom Quixote</i> é um clássico.
+            </p>
+          </blockquote>
+        </p>
+      </li>
+      <li>
+        <strong>tag u</strong>
+        <p>
+          A tag u serve para deixar o texto sublinhado.<br/>
+          Exemplo:
+          <blockquote>
+            <p>
+              Este é um texto <u>sublinhado</u>.
+            </p>
+          </blockquote>
+        </p>
+      </li>
+      <li>
+        <strong>tag strong</strong>
+        <p>
+          A tag strong serve para deixar o texto em negrito.<br/>
+          Exemplo:
+          <blockquote>
+            <p>
+              É <strong>muito importante</strong> beber água.
+            </p>
+          </blockquote>
+        </p>
+      </li>
+      <li>
+        <strong>tag ol</strong>
+        <p>
+          A tag ol serve para criar uma lista ordenada.<br/>
+          Exemplo:
+          <blockquote>
+            <ol>
+              <li>Item 1</li>
+              <li>Item 2</li>
+            </ol>
+          </blockquote>
+        </p>
+      </li>
+      <li>
+        <strong>tag ul</strong>
+        <p>
+          A tag ul serve para criar uma lista não ordenada.<br/>
+          Exemplo:
+          <blockquote>
+            <ul>
+              <li>Morango</li>
+              <li>Banana</li>
+            </ul>
+          </blockquote>
+        </p>
+      </li>
+      <li>
+        <strong>tag li</strong>
+        <p>
+          A tag li serve para definir cada item de uma lista, seja ela ordenada ou não<br/>
+          Exemplo:
+          <blockquote>
+            <ul>
+              <li>Item da lista</li>
+            </ul>
+          </blockquote>
+        </p>
+      </li>
+      <li>
+        <strong>tag a</strong>
+        <p>
+          A tag a serve para criar um link (âncora).<br/>
+          Exemplo:
+          <blockquote>
+            <a href="https://www.google.com" target="_blank">Ir para o Google</a>
+          </blockquote>
+        </p>
+      </li>
+      <li>
+        <strong>tag hr</strong>
+        <p>
+          A tag hr insere uma linha horizontal (separador).<br/>
+          Exemplo:
+          <blockquote>
+            <p>Parte 1 do texto</p>
+            <hr>
+            <p>Parte 2 do texto</p>
+          </blockquote>
+        </p>
+      </li>
+      <li>
+        <strong>tag sub</strong>
+        <p>
+          A tag sub deixa o texto em subscrito (abaixo da linha).<br/>
+          Exemplo:
+          <blockquote>
+            <p>Fórmula da água: H<sub>2</sub>O</p>
+          </blockquote>
+        </p>
+      </li>
+      <li>
+        <strong>tag sup</strong>
+        <p>
+          A tag sup deixa o texto em sobrescrito (acima da linha).<br/>
+          Exemplo:
+          <blockquote>
+            <p>10<sup>2</sup> = 100</p>
+          </blockquote>
+        </p>
+      </li>
+      <li>
+        <strong>tag blockquote</strong>
+        <p>
+          A tag blockquote pode ser usada para citações longas.<br/>
+          Exemplo:
+          <blockquote>
+            "A vida é 10% o que acontece comigo e 90% como eu reajo a isso."
+          </blockquote>
+        </p>
+      </li>
+      <li>
+        <strong>tag font</strong>
+        <p>
+          A tag font pode ser usada para mudar cor, tamanho e tipo de fonte. Mas, o ideal é usar CSS<br/>
+          Exemplo:
+          <blockquote>
+            <p>Texto normal e <font color="red" size="4">texto em vermelho</font>.</p>
+          </blockquote>
+        </p>
+      </li>
+      <li>
+        <strong>tag del</strong>
+        <p>
+          A tag del indica um texto removido/excluído.<br/>
+          Exemplo:
+          <blockquote>
+            <p>Preço: <del>R$ 100,00</del> R$ 79,90</p>
+          </blockquote>
+        </p>
+      </li>
+      <li>
+        <strong>tag abbr</strong>
+        <p>
+          A tag abbr indica uma abreviação ou sigla, mostrando o significado quando o usuário passa o mouse (atributo title).<br/>
+          Exemplo:
+          <blockquote>
+            <p>
+              <abbr title="HyperText Markup Language">HTML</abbr> é a linguagem padrão da web.
+            </p>
+          </blockquote>
+        </p>
+      </li>
+    </ul>
+
+    <p>E agora que citamos o atributo title da tag abbr, é importante falar sobre os atributos nas tags e alguns exemplos</p>
+    <h2 id="atributos">Atributos</h2>
+    <p>
+      Os atributos são informações extras que podem ser adicionadas dentro da tag de abertura para configurar o comportamento ou a aparência de um elemento, o valor é colocado entre aspas. Nem toda tag precisa de atributos, mas a maioria aceita. Vejamos alguns atributos:
+    </p>
+
+    <ul>
+      <li>
+        <strong>Atributo href</strong>
+        <p>
+          O atributo href é usado na tag a e define o link de destino.<br/>
+          Exemplo:
+          <blockquote>
+            <p>
+              <a href="https://www.google.com">Ir para o Google</a>
+            </p>
+          </blockquote>
+        </p>
+      </li>
+      <li>
+        <strong>Atributo id</strong>
+        <p>
+          O atributo id identifica de forma única um elemento na página.<br/>
+          Exemplo:
+          <blockquote>
+            <p>
+              tag p com id="intro" para definir que aquele é um parágrafo de introdução.
+            </>
+          </blockquote>
+        </p>
+      </li>
+      <li>
+        <strong>Atributo class</strong>
+        <p>
+          O atributo class agrupa elementos para aplicar CSS ou JS.<br/>
+          Exemplo:
+          <blockquote>
+            <p>
+              tag p class="texto-destaque" e todos os elementos com essa class poderão receber o mesmo estilo
+            </p>
+          </blockquote>
+        </p>
+      </li>
+      <li>
+        <strong>Atributo target</strong>
+        <p>
+          O atributo target é usado na tag a e define como o link será aberto.<br/>
+          Exemplo:
+          <blockquote>
+            <p>
+              <a href="https://www.google.com" target="_blank">Abrir o Google na mesma aba</a>
+              <br/>
+              <a href="https://www.google.com" target="_blank">Abrir o Google em nova aba</a>
+            </p>
+          </blockquote>
+        </p>
+      </li>
+    </ul>
+
+    <h2 id="referencias">Links de referências</h2>
+    <ul>
+        <li><a href="#">http://dio.me</a></li>
+        <li><a href="#">http://w3c.org</a></li>
+    </ul>
+
+    <a href="#topo">Voltar ao topo</a>
+  </body>
+</html>
